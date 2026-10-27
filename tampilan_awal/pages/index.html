@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub x IG x WhatsApp Hybrid Layout</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Style Sheet -->
+ <link rel="stylesheet" href="../assets/styles/style1.css">
+</head>
+<body>
+
+  <!-- ================= TOP HEADER (GITHUB NAV) ================= -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <div class="btn-icon"><i class="fa-brands fa-github logo-github"></i></div>
+      <div class="btn-icon close-btn"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    
+    <div class="nav-center">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <span class="search-placeholder">Type <kbd>/</kbd> to search</span>
+      </div>
+    </div>
+    
+    <div class="nav-right">
+      <button class="nav-btn-icon"><i class="fa-solid fa-square-plus"></i> <i class="fa-solid fa-caret-down mini-arrow"></i></button>
+      <button class="nav-btn-icon"><i class="fa-regular fa-circle-dot"></i></button>
+      <button class="nav-btn-icon"><i class="fa-solid fa-code-pull-request"></i></button>
+      <button class="nav-btn-icon"><i class="fa-regular fa-square"></i></button>
+      <button class="nav-btn-icon"><i class="fa-regular fa-bell"></i></button>
+      <div class="user-avatar-small">
+        <img src="https://picsum.photos/seed/user123/100/100" alt="Profile">
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN LAYOUT BODY ================= -->
+  <div class="main-container">
+    
+    <!-- LEFT SIDEBAR (GITHUB SIDEBAR) -->
+    <aside class="sidebar-left">
+      <nav class="sidebar-menu">
+        <a href="#" class="menu-item active">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-regular fa-compass"></i>
+          <span>Feed</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-regular fa-circle-dot"></i>
+          <span>All issues</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-solid fa-code-pull-request"></i>
+          <span>All pull requests</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-regular fa-folder"></i>
+          <span>All repositories</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-solid fa-table-cells-large"></i>
+          <span>Projects</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-regular fa-comments"></i>
+          <span>Discussions</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-solid fa-terminal"></i>
+          <span>Codespaces</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-regular fa-lightbulb"></i>
+          <span>Copilot</span>
+        </a>
+
+        <div class="sidebar-divider"></div>
+
+        <a href="#" class="menu-item">
+          <i class="fa-regular fa-compass"></i>
+          <span>Explore</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-solid fa-store"></i>
+          <span>Marketplace</span>
+        </a>
+        <a href="#" class="menu-item">
+          <i class="fa-solid fa-cubes"></i>
+          <span>MCP registry</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- CONTENT AREA (INSTAGRAM FEED) -->
+    <main class="content-area">
+      
+      <!-- Greeting Header -->
+      <div class="feed-header">
+        <h1 class="greeting">Ini halaman Ilmi maulid irpian</h1>
+        <span class="preview-badge">Preview <i class="fa-solid fa-caret-down"></i></span>
+      </div>
+
+      <!-- Instagram Stories Bar -->
+      <div class="stories-container">
+        <div class="stories-scroll">
+          
+          <div class="story-item">
+            <div class="story-avatar-ring">
+              <img src="https://picsum.photos/id/1025/150/150" alt="penghuni...">
+            </div>
+            <span class="story-username">penghuni...</span>
+          </div>
+
+          <div class="story-item">
+            <div class="story-avatar-ring">
+              <img src="https://picsum.photos/id/1062/150/150" alt="rifqidlrfsy__">
+            </div>
+            <span class="story-username">Ilhamjayadi</span>
+          </div>
+
+          <div class="story-item">
+            <div class="story-avatar-ring">
+              <img src="https://picsum.photos/id/1011/150/150" alt="m_bmntra">
+            </div>
+            <span class="story-username">valdigandi</span>
+          </div>
+
+          <div class="story-item">
+            <div class="story-avatar-ring">
+              <img src="https://picsum.photos/id/1020/150/150" alt="agriunity_25">
+            </div>
+            <span class="story-username">YosefMhmd</span>
+          </div>
+
+          <div class="story-item">
+            <div class="story-avatar-ring">
+              <img src="https://picsum.photos/id/1012/150/150" alt="rvhnn__">
+            </div>
+            <span class="story-username">ratuprenita</span>
+          </div>
+
+        </div>
+        <button class="stories-next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <!-- Instagram Post Card -->
+      <article class="post-card">
+        <div class="post-header">
+          <div class="post-user-info">
+            <img src="https://picsum.photos/id/1074/100/100" alt="oneallaxe_fh" class="post-avatar">
+            <span class="post-username">oneallaxe_fh</span>
+          </div>
+          <button class="post-more-btn"><i class="fa-solid fa-ellipsis"></i></button>
+        </div>
+
+        <!-- Poster Content Image -->
+        <div class="post-body">
+          <div class="poster-container">
+            <div class="poster-banner-top">
+              <i class="fa-solid fa-book-open"></i> HUKUM <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+            <h2 class="poster-main-title">PIDANA DENDA</h2>
+            <p class="poster-sub-title">dengan Sistem Kategori dan Pidana Tutupan</p>
+            <p class="poster-quote">"Dinda Sekar hanse kelorori, Terigi jaga bentat pertangangamakan."</p>
+
+            <div class="poster-grid">
+              <div class="poster-box box-left">
+                <h3>Apa itu Pidana Denda?</h3>
+                <p>Denada pidana adalah denda atas pidana pokok pembatasan tindak pidana tertentu. Pidana ini dapat berupa pembayaran uang yang wajib dibayar kepada negara oleh terpidana sesuai dengan ketetapan pidana yang diberikan.</p>
+              </div>
+
+              <div class="poster-box box-right">
+                <div class="dasar-hukum-title">Dasar Hukum</div>
+                <ul>
+                  <li>KUHP pasal tentang Pidana Denda</li>
+                  <li>UU No 1 Tahun 2023 tentang KUHP Sertik saat tentang</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Footer categories of poster -->
+            <div class="poster-categories">
+              <div class="cat-title">Kategori Pidana Denda</div>
+              <div class="cat-grid">
+                <div class="cat-card">
+                  <strong>KATEGORI I</strong>
+                  <span>Rp 1.000 - Rp 10.000</span>
+                </div>
+                <div class="cat-card">
+                  <strong>KATEGORI II</strong>
+                  <span>Rp 10.000 - Rp 100.000</span>
+                </div>
+                <div class="cat-card">
+                  <strong>KATEGORI III</strong>
+                  <span>Rp 10.000 - Rp 1.200.000</span>
+                </div>
+                <div class="cat-card">
+                  <strong>KATEGORI IV</strong>
+                  <span>Rp 120.000 - Rp 11.000.000</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <!-- RIGHT SIDEBAR (IG SUGGESTIONS & UNIVERSE BANNER) -->
+    <aside class="sidebar-right">
+      
+      <!-- Universe Banner Promo -->
+      <div class="universe-card">
+        <button class="universe-close">&times;</button>
+        <div class="universe-content">
+          <div class="universe-pixel-art">
+            <div class="pixel-grid"></div>
+            <div class="pixel-mascot"></div>
+          </div>
+          <div class="universe-logo">
+            UNIVERSE <span>'26</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- User Profile Summary -->
+      <div class="user-profile-widget">
+        <div class="widget-user-info">
+          <img src="https://picsum.photos/id/64/100/100" alt="awanaaaa6" class="widget-avatar">
+          <span class="widget-username">awanaaaa6</span>
+        </div>
+      </div>
+
+      <!-- Suggested Accounts Section -->
+      <div class="suggestions-section">
+        <div class="suggestions-header">
+          <span>Suggested for you</span>
+          <a href="#" class="see-all-btn">See all</a>
+        </div>
+
+        <ul class="suggestion-list">
+          <li class="suggestion-item">
+            <img src="https://picsum.photos/id/1027/100/100" alt="Maya" class="suggestion-avatar">
+            <div class="suggestion-info">
+              <span class="suggestion-name">マヤ</span>
+              <span class="suggestion-meta">Followed by ridnnalwi</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </li>
+
+          <li class="suggestion-item">
+            <img src="https://picsum.photos/id/338/100/100" alt="Teddy" class="suggestion-avatar">
+            <div class="suggestion-info">
+              <span class="suggestion-name">Stedyy_77</span>
+              <span class="suggestion-meta">Followed by rvhnn__ + 2</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </li>
+
+          <li class="suggestion-item">
+            <img src="https://picsum.photos/id/1069/100/100" alt="GIRI" class="suggestion-avatar">
+            <div class="suggestion-info">
+              <span class="suggestion-name">GIRI</span>
+              <span class="suggestion-meta">Followed by rvhnn__ + 2</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </li>
+
+          <li class="suggestion-item">
+            <img src="https://picsum.photos/id/1005/100/100" alt="hasbi" class="suggestion-avatar">
+            <div class="suggestion-info">
+              <span class="suggestion-name">hasbi</span>
+              <span class="suggestion-meta">Suggested for you</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </li>
+
+          <li class="suggestion-item">
+            <img src="https://picsum.photos/id/1025/100/100" alt="PALU" class="suggestion-avatar">
+            <div class="suggestion-info">
+              <span class="suggestion-name">PALU</span>
+              <span class="suggestion-meta">Followed by rifqidlrfsy_</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+  </div>
+
+  <!-- ================= BOTTOM CHAT BAR (WHATSAPP WEB) ================= -->
+  <footer class="bottom-chat-bar">
+    <button class="chat-icon-btn"><i class="fa-solid fa-paperclip"></i></button>
+    <button class="chat-icon-btn"><i class="fa-regular fa-face-smile"></i></button>
+    <div class="chat-input-wrapper">
+      <input type="text" placeholder="Ketik pesan" class="chat-input" id="chatInput">
+    </div>
+    <button class="chat-icon-btn mic-btn" id="sendOrMicBtn"><i class="fa-solid fa-microphone"></i></button>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+<script src="../assets/script/script.js"></script>
+</body>
+</html>
